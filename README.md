@@ -47,7 +47,14 @@ module.exports = {
 @tailwind utilities;
 ```
 
-**5. Start coding.**
+**5. Start build process.**
+
+```bash
+# terminal
+npm run dev
+```
+
+**6. Happy coding. ^^**
 
 ```jsx
 <p className="text-red-400 font-bold mt-10">Tailwind is working.</p>
