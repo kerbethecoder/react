@@ -119,8 +119,8 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/react/',
   plugins: [react()],
+  base: '/react',
 });
 ```
 
@@ -129,7 +129,7 @@ export default defineConfig({
 ```json
 {
   "scripts": {
-    "deploy": "npm run build && gh-pages -d dist -t true"
+    "deploy": "npm run build && gh-pages -d dist"
   }
 }
 ```
